@@ -1,0 +1,37 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+
+public class HoraDia {
+
+	/**
+	 * @param args
+	 * @throws Exception 
+	 */
+	public static void main(String[] args) throws Exception {
+		int hora;
+		String minutos;
+		Scanner scn = new Scanner(System.in);
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("Pon la Hora:");
+		hora = scn.nextInt();
+		
+		System.out.println("Pon los Minutos:");
+		minutos = br.readLine();
+
+		if (hora == 0 && Integer.parseInt(minutos) == 0){
+			System.out.println("Son las 12 de la noche");
+		}
+		else if (hora == 12 && Integer.parseInt(minutos) == 0){
+			System.out.println("Son las 12 del mediodia");
+		}
+		else if (hora >= 0 && Integer.parseInt(minutos) < 6){
+			System.out.println("Es de Madrugada");
+		}
+		
+	}
+
+}

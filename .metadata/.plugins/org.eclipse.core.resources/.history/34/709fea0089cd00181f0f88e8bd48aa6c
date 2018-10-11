@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+
+public class AcertarNumero {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		Scanner sca = new Scanner(System.in);
+		int numeroAzar = (int) (Math.random() * 100) + 1;
+		int contador = 0;
+		String continuar;
+		do{
+			System.out.println("Introduce un número del 1 al 100: ");
+			int numeroElegido = scn.nextInt();
+			contador++;
+			if (numeroElegido < numeroAzar){
+				System.out.println("El numero que has puesto es más bajo");
+				System.out.println("Intentos: " + contador +"Continuar s|n?");
+				continuar = sca.nextLine();
+			}
+			else if (numeroElegido > numeroAzar){
+				System.out.println("El numero que has puesto es más alto");
+				System.out.println("Intentos: " + contador +". Continuar s|n?");
+				continuar = sca.nextLine();
+			}
+			else {
+				System.out.println("Has Acertado!!!");
+				continuar ="salir";
+			}
+			
+		}
+		while (continuar.equals("s") || continuar.equals("S"));
+	}
+
+}

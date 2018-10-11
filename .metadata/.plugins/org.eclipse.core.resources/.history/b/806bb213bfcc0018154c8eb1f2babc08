@@ -1,0 +1,16 @@
+import java.time.Clock;
+import java.util.Scanner;
+
+public class variables {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int a = 3;
+		double b = 3.12;
+		int c = a + b;
+		System.out.println(c);
+	}
+
+}

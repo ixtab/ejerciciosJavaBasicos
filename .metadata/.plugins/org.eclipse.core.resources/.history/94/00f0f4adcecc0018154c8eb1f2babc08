@@ -1,0 +1,26 @@
+
+public class Conversiones {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int a = 5;
+		int b= 7;
+
+		double c = 0.5;
+		double d = 2.75;
+		
+		// Conversión implícita:
+		c = a;
+		System.out.println(c);
+		
+		// Explícita a = d daría error:
+		
+		System.out.println(a);
+		a = (int) d; // Casting
+		System.out.println(c);
+	}
+
+}

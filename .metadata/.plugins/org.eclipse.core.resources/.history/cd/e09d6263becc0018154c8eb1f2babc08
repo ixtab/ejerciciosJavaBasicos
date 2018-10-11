@@ -1,0 +1,22 @@
+import java.time.Clock;
+import java.util.Scanner;
+
+public class variables {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("escanear:");
+		String entrada = scanner.next();
+		System.out.println("mostrar lo escaneado");
+		System.out.println(entrada);
+		Scanner scanne = new Scanner(System.in);
+		System.out.println("escanear:");
+		int entrad = scanne.nextInt();
+		System.out.println("mostrar lo escaneado");
+		System.out.println(entrad);
+	}
+
+}

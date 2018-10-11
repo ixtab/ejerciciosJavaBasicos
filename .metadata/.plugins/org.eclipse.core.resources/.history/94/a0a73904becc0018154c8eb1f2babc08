@@ -1,0 +1,31 @@
+import java.time.Clock;
+import java.util.Scanner;
+
+public class variables {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a;
+		String hola;  
+		double pi = 3.14;
+		boolean verdad =true;
+		
+		System.out.println("a: ");
+		a = scanner.nextInt();
+		System.out.println("hola: ");
+		hola = scanner.next();		
+		for (int i = 0; i< a; i++){
+			System.out.println(hola +
+					" - " +
+					verdad +
+					" " +
+					i +
+					" - "+
+					pi);
+		}
+	}
+
+}

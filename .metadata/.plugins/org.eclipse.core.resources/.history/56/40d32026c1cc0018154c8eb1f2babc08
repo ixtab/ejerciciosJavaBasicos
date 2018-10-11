@@ -1,0 +1,16 @@
+import java.lang.reflect.Array;
+
+
+public class variables {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int a = 3;
+		double b = 3.12;
+		
+		System.out.println(a + b);
+	}
+
+}
