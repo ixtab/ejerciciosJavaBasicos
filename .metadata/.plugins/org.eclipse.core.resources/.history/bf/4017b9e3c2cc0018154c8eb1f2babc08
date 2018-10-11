@@ -1,0 +1,22 @@
+public class variables {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		/** Tipos de datos:
+			Enteros: byte, short, int, long
+			Reales: float, double
+			Lógicos: boolean
+			caracterer: char
+			Text: String
+		*/
+		int a = 3;
+		float b = 3.12;
+		double c = a+b;
+		
+		System.out.println(c);
+	}
+
+}

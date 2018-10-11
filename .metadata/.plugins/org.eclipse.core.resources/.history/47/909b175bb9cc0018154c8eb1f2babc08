@@ -1,0 +1,4 @@
+public class HelloUniverse {
+
+	System.out.println("Hello world!");
+}
