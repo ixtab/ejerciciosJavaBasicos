@@ -1,0 +1,34 @@
+import java.util.Vector;
+
+
+public class EjercicioFuncionPrimos {
+
+	static boolean esPrimo(int a){
+	
+		Vector<Integer> v = new Vector<Integer>(4);
+		boolean primo = true;
+		int i = 2;
+		while (i < a  && primo == true){
+			if (a%i == 0){
+				primo = false;
+			};
+			i++;
+		}
+		if (primo){
+		v.add(new Integer(a));
+		}
+		for(int x=0; x<v.size(); x++){
+            System.out.print(v.elementAt(x)+"\t");
+        }
+		return primo;
+	}
+	
+	public static void main(String[] args) {
+		for (int a = 1; a<=10000; a++){
+			if (esPrimo(a)){
+				System.out.println(a);
+			}
+		}
+	}
+
+}

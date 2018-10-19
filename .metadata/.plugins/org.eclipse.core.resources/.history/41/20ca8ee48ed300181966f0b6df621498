@@ -1,0 +1,25 @@
+
+public class EjercicioFuncionPrimos {
+
+	static boolean esPrimo(int a){
+		boolean primo = true;
+		int i = 2;
+		while (i < a){
+			if (a%i == 0){
+				primo = false;
+				i++;
+			}
+		}
+		return primo;
+	}
+	
+	public static void main(String[] args) {
+		int a = 7;
+		if (esPrimo(a)){
+			System.out.println("Primo");
+		} else {
+			System.out.println("nooor");
+		}
+	}
+
+}

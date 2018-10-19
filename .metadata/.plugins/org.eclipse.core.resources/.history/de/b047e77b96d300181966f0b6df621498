@@ -1,0 +1,40 @@
+import java.util.Enumeration;
+import java.util.Vector;
+
+
+public class EjercicioFuncionPrimos {
+
+	private static Enumeration<Integer> Enumeration;
+
+	static boolean esPrimo(int a){
+	
+		Vector<Integer> v = new Vector<Integer>(4);
+		boolean primo = true;
+		int i = 2;
+		while (i < a  && primo == true){
+			if (a%i == 0){
+				primo = false;
+			};
+			i++;
+		}
+		if (primo){
+		v.add(new Integer(a));
+		}
+
+        Enumeration<Integer> e=v.elements();
+        while(e.hasMoreElements()){
+            System.out.print(e.nextElement()+"\t");
+        }
+
+		return primo;
+	}
+	
+	public static void main(String[] args) {
+		for (int a = 1; a<=15; a++){
+			if (esPrimo(a)){
+				System.out.println(a);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,34 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
+public class EjemploFunciones {
+
+	static double multiplicacion(double a, double b){
+		double r = a * b;
+		return r;
+	}
+	
+	public static void main(String[] args) {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Introduce el primer numero");
+		double a = 0;
+		double b = 0;
+		try {
+			a = br.read();
+		} catch (IOException e) {
+			System.out.println("No has puesto un numero");
+		}
+		System.out.println("Introduce el segundo numero");
+		try {
+			b = br.read();
+		} catch (IOException e) {
+			System.out.println("No has puesto un numero");
+		}
+		double r = multiplicacion(a, b);
+		System.out.println(r);
+	}
+
+}

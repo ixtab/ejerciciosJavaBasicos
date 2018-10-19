@@ -1,0 +1,28 @@
+
+public class EjercicioFuncionPrimos {
+
+	static boolean esPrimo(int a){
+		boolean primo = true;
+		System.out.println(primo);
+		int i = 2;
+		while (i < a){
+			System.out.println("funcion: "+ a);
+			System.out.println("for: " +i);
+			if (a%i == 0){
+				primo = false;
+			}
+			i++;
+		}
+		return primo;
+	}
+	
+	public static void main(String[] args) {
+		int a = 8;
+		if (esPrimo(a)){
+			System.out.println("Primo");
+		} else {
+			System.out.println("nooor");
+		}
+	}
+
+}

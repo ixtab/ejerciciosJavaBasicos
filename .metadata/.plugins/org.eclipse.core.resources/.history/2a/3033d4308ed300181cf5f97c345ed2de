@@ -1,0 +1,17 @@
+
+public class EjercicioFuncionPrimos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		boolean esPrimo(int a){
+			boolean primo = false;
+			return primo;
+			
+		}
+
+	}
+
+}

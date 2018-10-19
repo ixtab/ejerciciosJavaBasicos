@@ -1,0 +1,27 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+
+public class EjemploFunciones {
+
+	static double multiplicacion(double a, double b){
+		double r = a * b;
+		return r;
+	}
+	
+	public static void main(String[] args) throws Exception {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		try{
+			System.out.println("Introduce el primer numero");
+			double a = Double.parseDouble(br.readLine());
+			System.out.println("Introduce el segundo numero");
+			double b = Double.parseDouble(br.readLine());
+			double r = multiplicacion(a, b);
+			System.out.println(r);
+		} catch (NumberFormatException error){
+			System.out.println("No has puesto un número");
+		}
+	}
+
+}

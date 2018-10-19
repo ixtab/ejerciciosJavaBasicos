@@ -37,5 +37,4 @@ public class AcertarNumero {
 		}
 		while (continuar.equals("s") || continuar.equals("S"));
 	}
-
 }
