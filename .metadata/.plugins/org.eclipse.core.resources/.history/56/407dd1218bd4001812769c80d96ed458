@@ -1,0 +1,14 @@
+package ejemploarray;
+
+public class EjemploArray {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] array = new int[10];
+		String[] arrayString = new String [3];
+
+	}
+
+}

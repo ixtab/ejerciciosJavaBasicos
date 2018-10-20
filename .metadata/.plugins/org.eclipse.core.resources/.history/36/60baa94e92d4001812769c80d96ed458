@@ -1,0 +1,25 @@
+package ejercicionombrealumno;
+
+public class Grupo{
+	
+	private String codigo = null;
+	
+	private Alumno [] alumnos = null;
+	
+	public Grupo(String g){
+		
+		codigo = g;
+		System.out.println("Código curso: " + codigo);
+		alumnos = new Alumno[5];
+		
+		for (int i = 0; i < alumnos.length; i++) {
+			alumnos[i] = new Alumno();
+		}
+		
+		for (int i = 0; i < alumnos.length; i++) {
+			alumnos[i].setNombre("Juan 2" + i);
+		}
+		
+	}
+	
+}

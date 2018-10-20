@@ -1,0 +1,16 @@
+package ejemploarray;
+
+public class EjemploArray {
+
+	static int a = 0;
+	
+	public static void main(String[] args) {
+		
+		algo();
+	}
+	
+	public static void algo(){
+		System.out.println("Algo " + a);
+	}
+
+}

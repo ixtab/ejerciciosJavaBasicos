@@ -1,0 +1,10 @@
+package ejercicionombrealumno;
+
+public class Grupo extends Alumno{
+	
+	private String codigo;
+	
+	private Alumno [] a = new Alumno [5];
+	
+	
+}

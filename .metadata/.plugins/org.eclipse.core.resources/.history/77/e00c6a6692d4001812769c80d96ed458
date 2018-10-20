@@ -1,0 +1,16 @@
+package ejercicionombrealumno;
+
+public class EjercicioNombreAlumno {
+
+	/**
+	 * @param args
+	 */
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		
+		Grupo g = new Grupo("1A");
+		
+		
+	}
+
+}
