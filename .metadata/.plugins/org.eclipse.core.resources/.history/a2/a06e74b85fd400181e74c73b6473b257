@@ -2,7 +2,7 @@
 public class Bombilla {
 
 	private boolean encendida = false;
-	public boolean rota = false; // Lo ponemos public para poder accecder desde fuera de la clase.
+	publi boolean rota = false;
 	private String decir = "";
 	
 	public Bombilla(){ 			//Constructor
