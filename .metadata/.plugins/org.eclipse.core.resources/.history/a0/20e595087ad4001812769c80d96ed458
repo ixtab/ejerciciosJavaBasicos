@@ -1,0 +1,16 @@
+package ejemploherencia;
+
+public class EjemploHerencia {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Circulo c = new Circulo();
+		
+		c.dibujar();
+		
+	}
+
+}

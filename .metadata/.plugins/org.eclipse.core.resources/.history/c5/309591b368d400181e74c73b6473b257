@@ -1,0 +1,12 @@
+package ejerciciomodelarobjetos;
+
+public class Libro {
+
+	protected String titulo;
+	protected String isbn;
+	protected boolean abierto = false;
+	protected int numPaginas;
+	protected int paginaActual = 0;
+	
+	
+}

@@ -1,0 +1,17 @@
+package ejerciciomodelarobjetos;
+
+public class Libro {
+
+	private String titulo;
+	protected String isbn;
+	protected boolean abierto = false;
+	protected int numPaginas;
+	protected int paginaActual = 0;
+	protected String getTitulo() {
+		return titulo;
+	}
+	protected void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	
+}

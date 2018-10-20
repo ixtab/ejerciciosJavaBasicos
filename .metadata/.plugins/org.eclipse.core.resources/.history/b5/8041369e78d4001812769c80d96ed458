@@ -1,0 +1,46 @@
+package ejerciciomodelarobjetos;
+
+public class EjercicioModelarObjetos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		// Clase Alumno.
+		Alumno juan = new Alumno("Juan", "Pérez", "02166884l", "658438528");
+		
+		juan.llamar();
+		juan.llamarCabreado();
+		
+				
+		Alumno nuevo = new Alumno();
+		
+		nuevo.setNombre("Pablo");
+		System.out.println("Nombre del nuevo: " + nuevo.getNombre());
+		
+		nuevo.setDni("García");
+		System.out.println("Dni del nuevo: " + nuevo.getDni());
+		
+		nuevo.setDni("01320255H");
+		System.out.println("Dni del nuevo: " + nuevo.getDni());
+		
+		nuevo.setTelefono("658437258");
+		System.out.println("Telefono del nuevo: " + nuevo.getTelefono());
+		
+		// Clase Libro
+		System.out.println("--------------\nLibros");
+		
+		Libro l = new Libro();
+		l.setTitulo("Maleficio");
+		l.setIsbn("84-226-2553-9");
+		l.setAbierto(false);
+		l.setNumPaginas(459);
+		l.setPaginaActual(234);
+		
+		l.abrir();
+		String titulo = l.getTitulo() + "\nClase: "+ l.getClass();
+		System.out.println(titulo);		
+	}
+
+}

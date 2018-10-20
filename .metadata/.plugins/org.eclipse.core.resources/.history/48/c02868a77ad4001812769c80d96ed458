@@ -1,0 +1,5 @@
+package ejemploherencia;
+
+public class Rectangulo extends Figura{
+
+}

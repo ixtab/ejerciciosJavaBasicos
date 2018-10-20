@@ -1,0 +1,15 @@
+package ejerciciomodelarobjetos;
+
+public class LibroInfantil extends Libro{
+
+	private int edadRecomendada = 18;
+	
+	public boolean esRecomendable(int edadNinyo){
+		if (edadNinyo >= edadRecomendada){
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+}

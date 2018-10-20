@@ -442,3 +442,391 @@ java.lang.IllegalArgumentException: Argument cannot be null
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SESSION 2018-10-20 16:36:43.527 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.562
+!MESSAGE NLS unused message: OpenRecentDocumentsClear_text in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.564
+!MESSAGE NLS unused message: SelectPerspective_noDesc in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.564
+!MESSAGE NLS unused message: SelectPerspective_open_button_label in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.564
+!MESSAGE NLS unused message: ShowView_open_button_label in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.565
+!MESSAGE NLS unused message: SavePerspective_saveButtonLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.566
+!MESSAGE NLS unused message: FilteredTableBase_Filter in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.567
+!MESSAGE NLS unused message: AboutPluginsDialog_filterTextMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.567
+!MESSAGE NLS unused message: WorkbenchWindow_HelpToolbar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.567
+!MESSAGE NLS unused message: WorkbenchWindow_EditToolbar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.568
+!MESSAGE NLS unused message: ICategory_general in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.568
+!MESSAGE NLS unused message: Preference_import in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.569
+!MESSAGE NLS unused message: Preference_export in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.569
+!MESSAGE NLS unused message: PreferenceExportWarning_continue in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.569
+!MESSAGE NLS unused message: ViewsPreferencePage_Theme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.570
+!MESSAGE NLS unused message: GlobalizationPreference_ltrDirection in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.571
+!MESSAGE NLS unused message: GlobalizationPreference_rtlDirection in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.571
+!MESSAGE NLS unused message: SaveableHelper_Save in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.572
+!MESSAGE NLS unused message: SaveableHelper_Cancel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.574
+!MESSAGE NLS unused message: SplitValues_Horizontal in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.574
+!MESSAGE NLS unused message: SplitValues_Vertical in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.575
+!MESSAGE NLS unused message: ContentTypes_removeContentTypeButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.575
+!MESSAGE NLS unused message: ContentTypes_newContentTypeDialog_nameLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.575
+!MESSAGE NLS unused message: ContentTypes_editorAssociationAddLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.576
+!MESSAGE NLS unused message: ContentTypes_editorAssociationRemoveLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.576
+!MESSAGE NLS unused message: WorkbenchPreferences_Name in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.577
+!MESSAGE NLS unused message: WorkingSetConfigurationBlock_NewWorkingSet_button in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:49.577
+!MESSAGE NLS unused message: FilteredTableBaseHandler_Close in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.071
+!MESSAGE NLS unused message: OpenResourceAction_text_plural in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.072
+!MESSAGE NLS unused message: OpenResourceAction_toolTip_plural in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.072
+!MESSAGE NLS unused message: CloseResourceAction_text_plural in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.072
+!MESSAGE NLS unused message: CloseResourceAction_toolTip_plural in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.073
+!MESSAGE NLS unused message: CloseUnrelatedProjectsAction_text_plural in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.073
+!MESSAGE NLS unused message: CloseUnrelatedProjectsAction_toolTip_plural in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.074
+!MESSAGE NLS unused message: CopyFilesAndFoldersOperation_overwriteButtonLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.075
+!MESSAGE NLS unused message: IDEWorkspacePreference_UnknownNatureSeverity_Ignore in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.076
+!MESSAGE NLS unused message: ProjectNaturesPage_addNature in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.076
+!MESSAGE NLS unused message: ProjectNaturesPage_removeNature in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.076
+!MESSAGE NLS unused message: AutoSavePreferencPage_noteLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.077
+!MESSAGE NLS unused message: ProjectLocationSelectionDialog_copyButtonLabel in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.077
+!MESSAGE NLS unused message: FilteredResourcesSelectionDialog_groupResourcesWithSameUndelyingLocation in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.078
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.078
+!MESSAGE NLS unused message: OpenResourceDialog_showInButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.079
+!MESSAGE NLS unused message: IDEApplication_workspaceInUse_Retry in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.079
+!MESSAGE NLS unused message: IDEApplication_version_continue in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.080
+!MESSAGE NLS unused message: CleanDialog_selectAllButton in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.080
+!MESSAGE NLS unused message: CleanDialog_deselectedAllButton in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.080
+!MESSAGE NLS unused message: CleanDialog_alwaysCleanAllButton in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.080
+!MESSAGE NLS unused message: CleanDialog_typeFilterText in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:36:50.080
+!MESSAGE NLS unused message: CleanDialog_clearToolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.097
+!MESSAGE NLS unused message: disassembler_extendedannotationentryend in: org.eclipse.jdt.internal.core.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.102
+!MESSAGE NLS unused message: disassembler_module_version_none in: org.eclipse.jdt.internal.core.util.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.453
+!MESSAGE NLS unused message: JavaBuildConfigurationBlock_info in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.453
+!MESSAGE NLS unused message: ProblemSeveritiesConfigurationBlock_info in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.453
+!MESSAGE NLS unused message: NullAnnotationsConfigurationDialog_add_button in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.454
+!MESSAGE NLS unused message: JavadocProblemsConfigurationBlock_info in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.454
+!MESSAGE NLS unused message: ComplianceConfigurationBlock_info in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.454
+!MESSAGE NLS unused message: ComplianceConfigurationBlock_version9 in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.454
+!MESSAGE NLS unused message: ComplianceConfigurationBlock_version10 in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.456
+!MESSAGE NLS unused message: FilteredPreferencesTree_collapseAll_tooltip in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.456
+!MESSAGE NLS unused message: FilteredPreferencesTree_expandAll_tooltip in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.488
+!MESSAGE NLS unused message: OpenTypeSelectionDialog_open in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.489
+!MESSAGE NLS unused message: GenerateHashCodeEqualsDialog_generate in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.489
+!MESSAGE NLS unused message: GenerateToStringDialog_generate_button in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.593
+!MESSAGE NLS unused message: TextAutoMerge_inputEncodingError in: org.eclipse.team.internal.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.593
+!MESSAGE NLS unused message: TextAutoMerge_outputEncodingError in: org.eclipse.team.internal.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.594
+!MESSAGE NLS unused message: TextAutoMerge_outputIOError in: org.eclipse.team.internal.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.594
+!MESSAGE NLS unused message: TextAutoMerge_conflict in: org.eclipse.team.internal.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:57.631
+!MESSAGE NLS unused message: CompilationUnitDocumentProvider_error_outOfSync in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.348
+!MESSAGE NLS unused message: AddUnimplementedConstructorsAction_button_generate in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.348
+!MESSAGE NLS unused message: GenerateConstructorUsingFieldsSelectionDialog_button_generate in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.349
+!MESSAGE NLS unused message: MultiFormatAction_name in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.349
+!MESSAGE NLS unused message: AddDelegateMethodsAction_generate_button in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.350
+!MESSAGE NLS unused message: CreateModuleInfoAction_dialog_finish_button_label in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.787
+!MESSAGE NLS unused message: AnnotationsAttachmentBlock_filename_externalfile_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.788
+!MESSAGE NLS unused message: AnnotationsAttachmentBlock_filename_externalfolder_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.788
+!MESSAGE NLS unused message: AnnotationsAttachmentBlock_filename_error_notvalid in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.788
+!MESSAGE NLS unused message: AnnotationsAttachmentBlock_filename_error_notabsolute in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.788
+!MESSAGE NLS unused message: AnnotationsAttachmentBlock_filename_error_filenotexists in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.788
+!MESSAGE NLS unused message: AnnotationsAttachmentBlock_filename_workspace_browse in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.788
+!MESSAGE NLS unused message: AnnotationsAttachmentBlock_filename_workspace_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.789
+!MESSAGE NLS unused message: AnnotationsAttachmentBlock_extjardialog_text in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.789
+!MESSAGE NLS unused message: BuildPathBasePage_cancel_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.789
+!MESSAGE NLS unused message: ModuleDialog_contents_tab in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.789
+!MESSAGE NLS unused message: ModuleDialog_details_tab in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.789
+!MESSAGE NLS unused message: ModuleDialog_package_header in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.789
+!MESSAGE NLS unused message: ModuleDialog_detail_add in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.790
+!MESSAGE NLS unused message: ModuleDialog_detail_edit in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.790
+!MESSAGE NLS unused message: ModuleDialog_detail_remove in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.790
+!MESSAGE NLS unused message: AddExportsBlock_package_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.791
+!MESSAGE NLS unused message: AccessRulesDialog_severity_info in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.791
+!MESSAGE NLS unused message: CPListLabelProvider_module_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.791
+!MESSAGE NLS unused message: CPListLabelProvider_module_yes in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.791
+!MESSAGE NLS unused message: CPListLabelProvider_module_no in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.791
+!MESSAGE NLS unused message: CPListLabelProvider_test_yes in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.792
+!MESSAGE NLS unused message: CPListLabelProvider_test_no in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.792
+!MESSAGE NLS unused message: PathRootWorkbookPage_classpath in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.932
+!MESSAGE NLS unused message: GroupLaunchConfigurationDelegate_mode_debug in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.932
+!MESSAGE NLS unused message: GroupLaunchConfigurationDelegate_None in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:58.932
+!MESSAGE NLS unused message: GroupLaunchElement_inherit_launch_mode_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:59.800
+!MESSAGE NLS unused message: RemediationOperation_RemediationJobName in: org.eclipse.equinox.internal.p2.operations.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:37:59.815
+!MESSAGE NLS unused message: Pre_neon2_pref_value_everyday in: org.eclipse.equinox.internal.p2.ui.sdk.scheduler.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:38:00.022
+!MESSAGE NLS unused message: JavaDocLocations_error_gettingJavadoc in: org.eclipse.jdt.internal.corext.CorextMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:38:00.022
+!MESSAGE NLS unused message: JavaDocLocations_noAttachedJavadoc in: org.eclipse.jdt.internal.corext.CorextMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:38:00.023
+!MESSAGE NLS unused message: JavaDocLocations_noAttachedSource in: org.eclipse.jdt.internal.corext.CorextMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:38:00.023
+!MESSAGE NLS unused message: JavaDocLocations_noAttachments in: org.eclipse.jdt.internal.corext.CorextMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:38:00.023
+!MESSAGE NLS unused message: JavaDocLocations_noInformation in: org.eclipse.jdt.internal.corext.CorextMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:38:02.626
+!MESSAGE NLS unused message: deleteActionConfirm_buttonDeleteLabel in: org.eclipse.ui.views.markers.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:38:02.627
+!MESSAGE NLS unused message: propertiesDialog_addButton in: org.eclipse.ui.views.markers.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:39:22.477
+!MESSAGE NLS unused message: JavaSourceHover_skippedLinesSymbol in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:39:44.753
+!MESSAGE NLS unused message: IntroduceIndirectionRefactoring_type_not_selected_error in: org.eclipse.jdt.internal.corext.refactoring.refactoring
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:40:14.234
+!MESSAGE NLS unused message: InstalledSoftwarePage_Filter_Installed_Software in: org.eclipse.equinox.internal.p2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:40:14.235
+!MESSAGE NLS unused message: AddRepositoryDialog_addButtonLabel in: org.eclipse.equinox.internal.p2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:40:14.235
+!MESSAGE NLS unused message: RevertProfilePage_CancelButtonLabel in: org.eclipse.equinox.internal.p2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:40:14.236
+!MESSAGE NLS unused message: ColocatedRepositoryTracker_SiteNotFound_EditButtonLabel in: org.eclipse.equinox.internal.p2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:40:14.236
+!MESSAGE NLS unused message: RevertDialog_CancelButtonLabel in: org.eclipse.equinox.internal.p2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:40:14.236
+!MESSAGE NLS unused message: TrustCertificateDialog_SelectAll in: org.eclipse.equinox.internal.p2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-20 16:40:14.237
+!MESSAGE NLS unused message: TrustCertificateDialog_DeselectAll in: org.eclipse.equinox.internal.p2.ui.messages
+!SESSION 2018-10-20 16:41:31.699 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.simpleconfigurator 4 0 2018-10-20 16:41:38.118
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "initial@reference:file:plugins/org.eclipse.equinox.simpleconfigurator_1.0.301.dist.jar" by thread "Start Level Event Dispatcher".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:564)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.suspendBundle(PackageAdminImpl.java:326)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.processDelta(PackageAdminImpl.java:467)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.doResolveBundles(PackageAdminImpl.java:251)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl$1.run(PackageAdminImpl.java:174)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 8 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:564)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.suspendBundle(PackageAdminImpl.java:326)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.processDelta(PackageAdminImpl.java:467)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.doResolveBundles(PackageAdminImpl.java:251)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl$1.run(PackageAdminImpl.java:174)
+	at java.lang.Thread.run(Thread.java:748)

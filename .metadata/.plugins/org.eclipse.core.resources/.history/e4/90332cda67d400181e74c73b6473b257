@@ -1,0 +1,52 @@
+package ejerciciomodelarobjetos;
+
+public class Alumno {
+
+	private String nombre;
+	private String apellidos;
+	private String dni;
+	private String telefono;
+	
+	private String getNombre() {
+		return nombre;
+	}
+	private void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	private String getApellidos() {
+		return apellidos;
+	}
+	private void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+	private String getDni() {
+		return dni;
+	}
+	private void setDni(String dni) {
+		this.dni = dni;
+	}
+	private String getTelefono() {
+		return telefono;
+	}
+	private void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
+
+	public Alumno(String nombre, String apellidos, String dni, String telefono){
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.dni = dni;
+		this.telefono = telefono;
+	}
+	
+	
+	public void llamar(){
+		System.out.println(nombre);;
+	}
+	
+	public void llamarCabreado(){
+		System.out.println(nombre + " " + apellidos + "!!!");
+		
+	}
+		
+}

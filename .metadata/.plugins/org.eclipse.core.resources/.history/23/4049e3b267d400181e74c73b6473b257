@@ -1,0 +1,24 @@
+package ejerciciomodelarobjetos;
+
+public class EjercicioModelarObjetos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		// Clase Alumno.
+		Alumno alumno = new Alumno("Juan", "Pérez", "02166884l", "658438528");
+		String dato = "";
+		
+		alumno.llamar();
+		alumno.llamarCabreado();
+		
+		alumno.
+		
+		// Clase Libro
+		
+		
+	}
+
+}

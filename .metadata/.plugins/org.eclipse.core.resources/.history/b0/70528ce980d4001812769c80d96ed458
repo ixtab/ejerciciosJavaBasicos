@@ -1,0 +1,16 @@
+package ejerciciocolegio;
+
+public class EjercicioColegio {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		AlumnoBeca a = new AlumnoBeca();
+		
+		a.setImporteBeca(2120);
+		a.llamarCabreado();
+
+	}
+
+}

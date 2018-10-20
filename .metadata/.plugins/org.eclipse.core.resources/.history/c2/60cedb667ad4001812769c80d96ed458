@@ -1,0 +1,10 @@
+package ejemploherencia;
+
+public class Figura {
+
+	
+	public String dibujar(){
+		return "Dibujando...";
+	}
+	
+}
