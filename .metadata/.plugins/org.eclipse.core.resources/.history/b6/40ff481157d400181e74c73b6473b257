@@ -1,0 +1,24 @@
+package ejercicioFibonacci;
+
+public class EjercicioFibonacci {
+
+	static int Fibonacci(int x){
+		if (x<2){
+			System.out.println("en menor de 2 a: " + a + " - x: " + x);
+			return 1;
+		}else {
+			System.out.println("en mayor de 2 a: " + a + " - x: " + x);
+			return Fibonacci(x-1) + Fibonacci(x-2);
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		for (int i = 0; i<10 ; i++){
+			int a = Fibonacci(i);
+			System.out.println(a);
+		}
+		
+	}
+
+}

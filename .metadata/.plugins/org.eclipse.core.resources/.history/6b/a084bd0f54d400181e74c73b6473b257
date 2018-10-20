@@ -1,0 +1,24 @@
+package ejercicioFibonacci;
+
+public class EjercicioFibonacci {
+
+	static int Fibonacci(int x){
+		int a = 0;
+		if (x<2){
+			return 1;
+			System.out.println(a);
+		}else {
+			System.out.println(a);
+			a = Fibonacci(x-1) + Fibonacci(x-2);
+		}
+		return a;
+	}
+	
+	public static void main(String[] args) {
+		
+		int a = Fibonacci(8);
+		System.out.println(a);
+		
+	}
+
+}

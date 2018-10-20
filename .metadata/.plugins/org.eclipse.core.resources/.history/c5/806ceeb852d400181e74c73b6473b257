@@ -1,0 +1,15 @@
+package ejercicioFibonacci;
+
+public class EjercicioFibonacci {
+
+	static int Fibonacci(int x){
+		return x;
+	}
+	
+	public static void main(String[] args) {
+		
+		int a = Fibonacci(3);
+		
+	}
+
+}

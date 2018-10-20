@@ -1,0 +1,13 @@
+public class EjercicioFibonacci {
+
+	int ibonacci(int x){
+		return x;
+	}
+	
+	public static void main(String[] args) {
+		
+		Fibonacci(3);
+		
+	}
+
+}

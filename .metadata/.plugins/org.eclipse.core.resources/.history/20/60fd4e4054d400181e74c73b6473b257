@@ -1,0 +1,25 @@
+package ejercicioFibonacci;
+
+public class EjercicioFibonacci {
+
+	static int Fibonacci(int x){
+		int a = 0;
+		if (x<2){
+			System.out.println("a: " + a + " - x: " + x);
+			return 1;
+		}else {
+			System.out.println("a: " + a + " - x: " + x);
+			a = Fibonacci(x-1) + Fibonacci(x-2);
+		}
+		System.out.println("a: " + a + " - x: " + x);
+		return a;
+	}
+	
+	public static void main(String[] args) {
+		
+		int a = Fibonacci(8);
+		System.out.println(a);
+		
+	}
+
+}

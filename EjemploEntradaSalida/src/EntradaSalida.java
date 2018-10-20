@@ -13,6 +13,7 @@ public class EntradaSalida {
 		// Dos tipos distintos de entrada. Con Scanner te diferencia según tipo de variable
 		// con scanner.nextLine para Strings o .nextInt para enteros
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Pon algo: \n");

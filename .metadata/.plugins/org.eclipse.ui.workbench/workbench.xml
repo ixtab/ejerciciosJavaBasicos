@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="20" version="2.0">
 <workbenchAdvisor/>
 <window height="714" maximized="true" width="1020" x="1357" y="41">
 <fastViewData fastViewLocation="1024"/>
@@ -33,27 +33,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="3"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjemploFunciones.java" partName="EjemploFunciones.java" path="/home/jose/workspace/EjemploFunciones/src/EjemploFunciones.java" title="EjemploFunciones.java" tooltip="EjemploFunciones/src/EjemploFunciones.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EjemploFunciones/src/EjemploFunciones.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="66" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjemploExcepciones.java" partName="EjemploExcepciones.java" path="/home/jose/workspace/EjemploExcepciones/src/EjemploExcepciones.java" title="EjemploExcepciones.java" tooltip="EjemploExcepciones/src/EjemploExcepciones.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EjemploExcepciones/src/EjemploExcepciones.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjemploFactorial.java" partName="EjemploFactorial.java" path="/home/jose/workspace/EjemploFactorial/src/EjemploFactorial.java" title="EjemploFactorial.java" tooltip="EjemploFactorial/src/EjemploFactorial.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EjemploFactorial/src/EjemploFactorial.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="182" selectionTopPixel="67"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntradaSalida.java" partName="EntradaSalida.java" path="/home/jose/workspace/EjemploEntradaSalida/src/EntradaSalida.java" title="EntradaSalida.java" tooltip="EjemploEntradaSalida/src/EntradaSalida.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EjemploEntradaSalida/src/EntradaSalida.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="487" selectionTopPixel="12"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="195" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjercicioFuncionPrimos.java" partName="EjercicioFuncionPrimos.java" path="/home/jose/workspace/EjercicioFuncionPrimos/src/EjercicioFuncionPrimos.java" title="EjercicioFuncionPrimos.java" tooltip="EjercicioFuncionPrimos/src/EjercicioFuncionPrimos.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EjercicioFuncionPrimos/src/EjercicioFuncionPrimos.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="351" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjercicioFibonacci.java" partName="EjercicioFibonacci.java" path="/home/jose/workspace/EjercicioFibonacci/src/ejercicioFibonacci/EjercicioFibonacci.java" title="EjercicioFibonacci.java" tooltip="EjercicioFibonacci/src/ejercicioFibonacci/EjercicioFibonacci.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EjercicioFibonacci/src/ejercicioFibonacci/EjercicioFibonacci.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="41" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -92,11 +87,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (5 items)"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="571"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -303,165 +293,170 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjercicioAcertarNumero/src/AcertarNumero.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/jose/workspace/.metadata/version.ini"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjercicioHoraDia/src/HoraDia.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjemploExcepciones/src/EjemploExcepciones.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjemploFunciones/src/EjemploFunciones.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjercicioAcertarNumero/src/AcertarNumero.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjemploEntradaSalida/src/EntradaSalida.java"/>
 <editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=EjemploFunciones/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;java.lang(Double.class"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjercicioFuncionPrimos/src/EjercicioFuncionPrimos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjemploFunciones/src/EjemploFunciones.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjercicioFuncionPrimos/src/EjercicioFuncionPrimos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjemploFactorial/src/EjemploFactorial.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjemploEntradaSalida/src/EntradaSalida.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjemploEntradaSalida/src/EntradaSalida.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjercicioAcertarNumero/src/AcertarNumero.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjercicioHoraDia/src/HoraDia.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EjercicioFibonacci/src/ejercicioFibonacci/EjercicioFibonacci.java"/>
 </editors>
-<item historyLabel="AcertarNumero.java" index="0">
-<position info="not_deleted" x="1093" y="0"/>
-</item>
-<item historyLabel="AcertarNumero.java" index="0">
-<position info="not_deleted" x="1093" y="0"/>
-</item>
-<item historyLabel="AcertarNumero.java" index="0">
-<position info="not_deleted" x="1088" y="0"/>
-</item>
-<item historyLabel="AcertarNumero.java" index="0">
-<position info="not_deleted" x="284" y="0"/>
-</item>
-<item historyLabel="version.ini" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AcertarNumero.java" index="0">
-<position info="not_deleted" x="1158" y="0"/>
-</item>
-<item historyLabel="HoraDia.java" index="2">
-<position info="not_deleted" x="278" y="37"/>
-</item>
-<item historyLabel="EjemploExcepciones.java" index="3">
-<position info="not_deleted" x="94" y="0"/>
-</item>
-<item historyLabel="EjemploExcepciones.java" index="3">
-<position info="not_deleted" x="30" y="0"/>
-</item>
-<item historyLabel="EjemploExcepciones.java" index="3">
-<position info="not_deleted" x="421" y="0"/>
-</item>
-<item historyLabel="EjemploFunciones.java" index="4">
-<position info="not_deleted" x="66" y="0"/>
-</item>
-<item historyLabel="EjemploFunciones.java" index="4">
-<position info="not_deleted" x="694" y="0"/>
-</item>
-<item historyLabel="AcertarNumero.java" index="5">
+<item historyLabel="AcertarNumero.java" index="2">
 <position info="not_deleted" x="208" y="37"/>
 </item>
-<item historyLabel="EjemploFunciones.java" index="4">
-<position info="not_deleted" x="694" y="0"/>
-</item>
-<item historyLabel="AcertarNumero.java" index="5">
-<position info="not_deleted" x="208" y="37"/>
-</item>
-<item historyLabel="EjemploFunciones.java" index="4">
-<position/>
-</item>
-<item historyLabel="EjemploExcepciones.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AcertarNumero.java" index="5">
-<position info="not_deleted" x="208" y="37"/>
-</item>
-<item historyLabel="EjemploFunciones.java" index="4">
-<position info="not_deleted" x="177" y="0"/>
-</item>
-<item historyLabel="EjemploExcepciones.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AcertarNumero.java" index="5">
-<position info="not_deleted" x="208" y="37"/>
-</item>
-<item historyLabel="EntradaSalida.java" index="6">
+<item historyLabel="EntradaSalida.java" index="3">
 <position info="not_deleted" x="411" y="73"/>
 </item>
-<item historyLabel="AcertarNumero.java" index="5">
-<position info="not_deleted" x="208" y="37"/>
-</item>
-<item historyLabel="EjemploExcepciones.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="EntradaSalida.java" index="6">
-<position info="not_deleted" x="411" y="73"/>
-</item>
-<item historyLabel="EjemploFunciones.java" index="4">
-<position info="not_deleted" x="694" y="0"/>
-</item>
-<item historyLabel="EntradaSalida.java" index="6">
-<position info="not_deleted" x="411" y="73"/>
-</item>
-<item historyLabel="EjemploFunciones.java" index="4">
-<position info="not_deleted" x="694" y="0"/>
-</item>
-<item historyLabel="EntradaSalida.java" index="6">
-<position info="not_deleted" x="411" y="73"/>
-</item>
-<item historyLabel="EjemploFunciones.java" index="4">
-<position info="not_deleted" x="694" y="0"/>
-</item>
-<item historyLabel="EntradaSalida.java" index="6">
-<position info="not_deleted" x="411" y="73"/>
-</item>
-<item historyLabel="AcertarNumero.java" index="5">
-<position info="not_deleted" x="208" y="37"/>
-</item>
-<item historyLabel="EntradaSalida.java" index="6">
-<position info="not_deleted" x="411" y="73"/>
-</item>
-<item historyLabel="EjemploFunciones.java" index="4">
+<item historyLabel="EjemploFunciones.java" index="1">
 <position info="not_deleted" x="599" y="0"/>
 </item>
-<item historyLabel="EjemploExcepciones.java" index="3">
+<item historyLabel="EjemploExcepciones.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EjemploFunciones.java" index="4">
+<item historyLabel="EjemploFunciones.java" index="1">
 <position info="not_deleted" x="687" y="0"/>
 </item>
-<item historyLabel="EntradaSalida.java" index="6">
+<item historyLabel="EntradaSalida.java" index="3">
 <position info="not_deleted" x="487" y="0"/>
 </item>
-<item historyLabel="EjemploFunciones.java" index="4">
+<item historyLabel="EjemploFunciones.java" index="1">
 <position info="not_deleted" x="516" y="0"/>
 </item>
-<item historyLabel="Double.class" index="7">
+<item historyLabel="Double.class" index="4">
 <position info="not_deleted" x="21676" y="0"/>
 </item>
-<item historyLabel="EjemploFunciones.java" index="4">
+<item historyLabel="EjemploFunciones.java" index="1">
 <position info="not_deleted" x="66" y="0"/>
 </item>
-<item historyLabel="EjercicioFuncionPrimos.java" index="8">
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EjercicioFuncionPrimos.java" index="8">
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
 <position/>
 </item>
-<item historyLabel="EjemploFunciones.java" index="4">
+<item historyLabel="EjemploFunciones.java" index="1">
 <position info="not_deleted" x="66" y="0"/>
 </item>
-<item historyLabel="EjercicioFuncionPrimos.java" index="8">
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
 <position/>
 </item>
-<item historyLabel="EjemploFunciones.java" index="4">
+<item historyLabel="EjemploFunciones.java" index="1">
 <position info="not_deleted" x="66" y="0"/>
 </item>
-<item historyLabel="EntradaSalida.java" index="6">
+<item historyLabel="EntradaSalida.java" index="3">
 <position info="not_deleted" x="487" y="0"/>
 </item>
-<item historyLabel="EjercicioFuncionPrimos.java" index="8">
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
 <position info="not_deleted" x="119" y="0"/>
 </item>
-<item historyLabel="EjercicioFuncionPrimos.java" index="8">
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
 <position info="not_deleted" x="114" y="0"/>
 </item>
-<item historyLabel="EjercicioFuncionPrimos.java" index="8">
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
 <position info="not_deleted" x="177" y="0"/>
 </item>
-<item active="true" historyLabel="EjercicioFuncionPrimos.java" index="8">
-<position info="not_deleted" x="355" y="0"/>
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
+<position/>
+</item>
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
+<position info="not_deleted" x="282" y="0"/>
+</item>
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
+<position info="not_deleted" x="409" y="0"/>
+</item>
+<item historyLabel="EjercicioFuncionPrimos.java" index="5">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="EjemploFunciones.java" index="6">
+<position info="not_deleted" x="66" y="0"/>
+</item>
+<item historyLabel="EjercicioFuncionPrimos.java" index="7">
+<position info="not_deleted" x="268" y="0"/>
+</item>
+<item historyLabel="EjemploFunciones.java" index="6">
+<position info="not_deleted" x="66" y="0"/>
+</item>
+<item historyLabel="EjercicioFuncionPrimos.java" index="7">
+<position info="not_deleted" x="268" y="0"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="94" y="0"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="661" y="0"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="249" y="0"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="624" y="0"/>
+</item>
+<item historyLabel="EntradaSalida.java" index="9">
+<position info="not_deleted" x="411" y="73"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="624" y="0"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="618" y="0"/>
+</item>
+<item historyLabel="EntradaSalida.java" index="10">
+<position info="not_deleted" x="411" y="73"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="EntradaSalida.java" index="10">
+<position info="not_deleted" x="411" y="73"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="EntradaSalida.java" index="10">
+<position info="not_deleted" x="411" y="73"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="EntradaSalida.java" index="10">
+<position info="not_deleted" x="411" y="73"/>
+</item>
+<item historyLabel="EjemploFactorial.java" index="8">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="EntradaSalida.java" index="10">
+<position info="not_deleted" x="411" y="73"/>
+</item>
+<item historyLabel="AcertarNumero.java" index="11">
+<position info="not_deleted" x="184" y="4"/>
+</item>
+<item historyLabel="HoraDia.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EntradaSalida.java" index="10">
+<position info="not_deleted" x="195" y="0"/>
+</item>
+<item historyLabel="EjercicioFibonacci.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EjercicioFibonacci.java" index="13">
+<position info="not_deleted" x="71" y="0"/>
+</item>
+<item historyLabel="EjercicioFibonacci.java" index="13">
+<position info="not_deleted" x="68" y="0"/>
+</item>
+<item active="true" historyLabel="EjercicioFibonacci.java" index="13">
+<position info="not_deleted" x="134" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -480,20 +475,29 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjercicioFibonacci.java" tooltip="EjercicioFibonacci/src/ejercicioFibonacci/EjercicioFibonacci.java">
+<persistable path="/EjercicioFibonacci/src/ejercicioFibonacci/EjercicioFibonacci.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HoraDia.java" tooltip="EjercicioHoraDia/src/HoraDia.java">
+<persistable path="/EjercicioHoraDia/src/HoraDia.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AcertarNumero.java" tooltip="EjercicioAcertarNumero/src/AcertarNumero.java">
+<persistable path="/EjercicioAcertarNumero/src/AcertarNumero.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntradaSalida.java" tooltip="EjemploEntradaSalida/src/EntradaSalida.java">
+<persistable path="/EjemploEntradaSalida/src/EntradaSalida.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjemploFactorial.java" tooltip="EjemploFactorial/src/EjemploFactorial.java">
+<persistable path="/EjemploFactorial/src/EjemploFactorial.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjercicioFuncionPrimos.java" tooltip="EjercicioFuncionPrimos/src/EjercicioFuncionPrimos.java">
 <persistable path="/EjercicioFuncionPrimos/src/EjercicioFuncionPrimos.java"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Double.class" tooltip="java.lang.Double">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=EjemploFunciones/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;java.lang(Double.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntradaSalida.java" tooltip="EjemploEntradaSalida/src/EntradaSalida.java">
-<persistable path="/EjemploEntradaSalida/src/EntradaSalida.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjemploExcepciones.java" tooltip="EjemploExcepciones/src/EjemploExcepciones.java">
 <persistable path="/EjemploExcepciones/src/EjemploExcepciones.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AcertarNumero.java" tooltip="EjercicioAcertarNumero/src/AcertarNumero.java">
-<persistable path="/EjercicioAcertarNumero/src/AcertarNumero.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjemploFunciones.java" tooltip="EjemploFunciones/src/EjemploFunciones.java">
 <persistable path="/EjemploFunciones/src/EjemploFunciones.java"/>
@@ -503,9 +507,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Conversiones.java" tooltip="EjemploConversiones/src/Conversiones.java">
 <persistable path="/EjemploConversiones/src/Conversiones.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HoraDia.java" tooltip="EjercicioHoraDia/src/HoraDia.java">
-<persistable path="/EjercicioHoraDia/src/HoraDia.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloUniverse.java" tooltip="HelloUniverse/HelloUniverse.java">
 <persistable path="/HelloUniverse/HelloUniverse.java"/>
