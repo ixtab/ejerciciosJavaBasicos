@@ -1,0 +1,9 @@
+package ejemplointerfaces;
+
+public class Guitarra extends InstrumentoMusical{
+
+	public void sonar(int vol) {
+		System.out.println("Guitarrarrarrarrarrarra!!!!");
+	}
+
+}

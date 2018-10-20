@@ -1,0 +1,10 @@
+package ejemplointerfaces;
+
+public class Sirena implements Volumen{
+
+	public void sonar(int vol) {
+		System.out.println("UUUOOOOOOOOOOOUUUOOOOOOOOOOOOOOOO");
+		
+	}
+
+}

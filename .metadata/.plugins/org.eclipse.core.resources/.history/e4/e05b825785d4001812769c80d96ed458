@@ -1,0 +1,5 @@
+package ejemplointerfaces;
+
+public abstract class InstrumentoMusical implements Volumen{
+
+}

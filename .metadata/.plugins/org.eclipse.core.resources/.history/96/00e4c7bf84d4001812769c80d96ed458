@@ -1,0 +1,7 @@
+package ejemplointerfaces;
+
+public class Bajo extends InstrumentoMusical{
+	public void sonar(int vol){
+		
+	}
+}
