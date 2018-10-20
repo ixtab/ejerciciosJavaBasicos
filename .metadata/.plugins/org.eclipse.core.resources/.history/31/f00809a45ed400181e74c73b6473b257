@@ -7,7 +7,6 @@ public class EjemploObjetoBombilla {
 		
 		Bombilla b = new Bombilla();
 		Bombilla c = new Bombilla(true);
-		Bombilla d = new Bombilla("Hola");
 		
 		b.encender();
 		b.consultarEstado();
@@ -25,8 +24,6 @@ public class EjemploObjetoBombilla {
 		
 		System.out.print("Estado de c: ");
 		c.consultarEstado();
-		
-		System.out.println(d.habla());
 	}
 
 }

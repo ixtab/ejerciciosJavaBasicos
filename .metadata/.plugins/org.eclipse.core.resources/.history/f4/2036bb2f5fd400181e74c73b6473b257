@@ -3,7 +3,6 @@ public class Bombilla {
 
 	private boolean encendida = false;
 	private boolean rota = false;
-	private String decir = "";
 	
 	public Bombilla(){ 			//Constructor
 		encendida = false;
@@ -14,7 +13,7 @@ public class Bombilla {
 	}
 	
 	public Bombilla(String decir){
-		this.decir = decir;
+		System.out.println("Me has dicho " + decir);
 	}
 	
 	public void encender(){
@@ -49,10 +48,6 @@ public class Bombilla {
 		} else {
 			System.out.println("La bombilla está apagada");
 		}
-	}
-	
-	public String habla(){
-		return "Soy una bombilla y me has dicho "+ decir;
 	}
 	
 	

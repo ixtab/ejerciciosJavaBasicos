@@ -52,7 +52,7 @@ public class Bombilla {
 	}
 	
 	public String habla(){
-		return "Soy una bombilla y me has dicho "+ decir;
+		return decir;
 	}
 	
 	
