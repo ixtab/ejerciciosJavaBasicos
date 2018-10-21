@@ -9,4 +9,15 @@
 <fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
 <fullyQualifiedTypeName name="Bombilla"/>
+<fullyQualifiedTypeName name="ejemploherencia.Rectangulo"/>
+<fullyQualifiedTypeName name="ejerciciomodelarobjetos.LibroInfantil"/>
+<fullyQualifiedTypeName name="ejerciciocolegio.Alumno"/>
+<fullyQualifiedTypeName name="ejerciciocolegio.AlumnoBeca"/>
+<fullyQualifiedTypeName name="ejemplointerfaces.Volumen"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ejemplointerfaces.InstrumentoMusical"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

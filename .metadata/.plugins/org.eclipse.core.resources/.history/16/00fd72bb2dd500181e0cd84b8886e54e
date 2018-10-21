@@ -1,0 +1,20 @@
+package ejemplolistas;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EjemploListas {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Pelicula p1 = new Pelicula();
+		Pelicula p2 = new Pelicula();
+		
+		List<Pelicula> lista;
+		lista = new ArrayList<Pelicula>();
+	}
+
+}

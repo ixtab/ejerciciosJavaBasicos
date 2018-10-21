@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Bombilla"><rhs name\="Bombilla"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Bombilla"><rhs name\="Bombilla"/></lhs><lhs name\="ejerciciomodelarobjetos.Libro"><rhs name\="ejerciciomodelarobjetos.LibroInfantil"/></lhs><lhs name\="ejerciciomodelarobjetos.LibroInfantil"><rhs name\="ejerciciomodelarobjetos.LibroInfantil"/></lhs><lhs name\="ejerciciocolegio.Alumno"><rhs name\="ejerciciocolegio.AlumnoBeca"/></lhs><lhs name\="ejerciciocolegio.AlumnoBeca"><rhs name\="ejerciciocolegio.AlumnoBeca"/></lhs></history>
 content_assist_number_of_computers=13
 content_assist_prefix_completion=true
 content_assist_proposals_background=255,255,255

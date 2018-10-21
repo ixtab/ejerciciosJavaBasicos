@@ -12,7 +12,7 @@ public class EjercicioFibonacci {
 	}
 	
 	public static void main(String[] args) {
-		for (int i = 0; i<10 ; i++){
+		for (int i = 0; i<100 ; i++){
 			int a = fibonacci(i);
 			System.out.print(a + ", ");
 		}

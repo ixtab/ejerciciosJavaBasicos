@@ -1,0 +1,22 @@
+package ejercicioFibonacci;
+
+public class EjercicioFibonacci {
+
+	static int fibonacci(int x){
+		
+		if (x<2){
+			return x;
+		}else {
+			return fibonacci(x-1) + fibonacci(x-2);
+		}
+	}
+	
+	public static void main(String[] args) {
+		for (int i = 0; i<10 ; i++){
+			int a = fibonacci(i);
+			System.out.print(a + ", ");
+		}
+		
+	}
+
+}

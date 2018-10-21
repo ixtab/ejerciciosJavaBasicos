@@ -4,4 +4,11 @@
 	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
 	<item value="181" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
 	<item value="127" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
+	<section name="EXPRESSION_INPUT_DIALOG">
+		<item value="551" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="375" key="DIALOG_HEIGHT"/>
+		<item value="238" key="DIALOG_X_ORIGIN"/>
+		<item value="134" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>
